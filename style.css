@@ -6,8 +6,8 @@
 body{
     height: 100vh;
     background: linear-gradient(
-        #e92e3d,
-        #ff6e6a
+        #380d07,
+        #380d07
     ) 0 100% no-repeat;
     background-size: 100% 50%;
 }
@@ -29,19 +29,25 @@ body{
 .dice-wrapper{
     width: 90%;
     display: flex;
+    margin-top: 20px;
     justify-content: space-around;
 }
 p{
     font-size: 16px;
-    margin: 30px 0;
+    margin-top: 20px;
     font-weight: 500;
 }
+a{
+    padding: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 button{
-    background-color: #e92e3d;
+    background-color: #380d07;
     border: none;
     outline: none;
     color: #ffffff;
     padding: 15px 0;
+    margin-top: 20px;
     width: 150px;
     letter-spacing: 1px;
     border-radius: 5px;
